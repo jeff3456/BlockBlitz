@@ -46,7 +46,7 @@ public class Dot extends PApplet
 		{
 			int xPos = (int)(a[i].xpos * 500);
 			int yPos = (int)(a[i].ypos);
-			fill(a[i].colora, a[i].colorb , a[i].colorc);
+			fill(a[i].r, a[i].g , a[i].b);
 			rect(xPos, yPos, a[i].size, a[i].size);
 			a[i].move();
 			a[i].resetBlock(1000);
