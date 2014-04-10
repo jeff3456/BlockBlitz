@@ -55,7 +55,7 @@ public class Dot extends PApplet
 		if(gameOver)
 		{
 			timeElasped = (int) (System.currentTimeMillis() / 1000 - startTime / 1000);
-			println("your survived " + timeElasped + " seconds");
+			println("you survived " + timeElasped + " seconds");
 			println("you dodged " + Blocks.score + " blocks");
 		}
 	}
