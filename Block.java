@@ -1,9 +1,8 @@
-
 public class Blocks 
 {
-	int colora;
-	int colorb;
-	int colorc;
+	int r;
+	int g;
+	int b;
 	double xpos;
 	double ypos;
 	double speed;
@@ -17,23 +16,23 @@ public class Blocks
 		this.ypos = 0;
 		if (this.speed > 4.5)
 		{
-			this.colora = 255;
-			this.colorb = 0;
-			this.colorc = 0;
+			this.r = 255;
+			this.g = 0;
+			this.b = 0;
 			this.size = 10;
 		}
 		else if(this.speed > 2.5)
 		{
-			this.colora = 0;
-			this.colorb = 255;
-			this.colorc = 0;
+			this.r = 0;
+			this.g = 255;
+			this.b = 0;
 			this.size = 20;
 		}
 		else
 		{
-			this.colora = 0;
-			this.colorb = 0;
-			this.colorc = 255;
+			this.r = 0;
+			this.g = 0;
+			this.b = 255;
 			this.size = 35;
 		}
 	}
@@ -52,25 +51,25 @@ public class Blocks
 			
 			if (this.speed > 4.5)
 			{
-				this.colora = 255;
-				this.colorb = 0;
-				this.colorc = 0;
+				this.r = 255;
+				this.g = 0;
+				this.b = 0;
 				this.size = 10;
 
 			}
 			else if(this.speed > 2.5)
 			{
-				this.colora = 0;
-				this.colorb = 255;
-				this.colorc = 0;
+				this.r = 0;
+				this.g = 255;
+				this.b = 0;
 				this.size = 20;
 
 			}
 			else
 			{
-				this.colora = 0;
-				this.colorb = 0;
-				this.colorc = 255;
+				this.r = 0;
+				this.g = 0;
+				this.b = 255;
 				this.size = 35;
 			}
 		}
