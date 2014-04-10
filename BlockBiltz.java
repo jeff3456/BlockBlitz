@@ -1,10 +1,6 @@
 import processing.core.PApplet;
 public class Dot extends PApplet
 {
-	// how to make the white block move with arrow keys
-	// how to change up the movement of the red blocks
-	// how to add michaels face to the flappy bird
-	// how to add sounds to my game
 	int numBlocks = 1;
 	Blocks [] a = new Blocks[150];
 	boolean gameOver = false;
