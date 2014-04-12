@@ -1,76 +1,93 @@
-public class Blocks 
+import processing.core.PApplet;
+
+
+public class Blocks extends PApplet
 {
-	int r;
-	int g;
-	int b;
+	int colora;
+	int colorb;
+	int colorc;
 	double xpos;
 	double ypos;
 	double speed;
 	int size;
 	static int score = 0;
-	public Blocks()
+	public Blocks(PApplet canvas)
 	{
 		
-		this.speed = (Math.random() * 5 + 1);
+		this.speed = (Math.random() * 6.5 + 1);
 		this.xpos = Math.random();
 		this.ypos = 0;
-		if (this.speed > 4.5)
+		if (this.speed > 5)
 		{
-			this.r = 255;
-			this.g = 0;
-			this.b = 0;
+			this.colora = 255;
+			this.colorb = 0;
+			this.colorc = 0;
 			this.size = 10;
 		}
-		else if(this.speed > 2.5)
+		else if(this.speed > 3)
 		{
-			this.r = 0;
-			this.g = 255;
-			this.b = 0;
+			this.colora = 0;
+			this.colorb = 255;
+			this.colorc = 0;
 			this.size = 20;
+		}
+		else if(this.speed > 1.1)
+		{
+			this.colora = 0;
+			this.colorb = 0;
+			this.colorc = 255;
+			this.size = 35;
 		}
 		else
 		{
-			this.r = 0;
-			this.g = 0;
-			this.b = 255;
-			this.size = 35;
+			this.colora = 255;
+			this.colorb = 0;
+			this.colorc = 255;
+			this. size = 100;
 		}
 	}
 	public void move()
 	{
 		this.ypos += this.speed;
 	}
-	public void resetBlock(int endOfScreen)
+	public void resetBlock(int endOfScreen, PApplet canvas)
 	{
 		if(this.ypos > endOfScreen)
 		{
 			this.ypos = 0;
 			this.xpos = Math.random();
-			this.speed = (Math.random() * 7.5 + 1);
+			this.speed = (Math.random() * 6.5 + 1);
 			this.score++;
 			
-			if (this.speed > 4.5)
+			if (this.speed > 5)
 			{
-				this.r = 255;
-				this.g = 0;
-				this.b = 0;
+				this.colora = 255;
+				this.colorb = 0;
+				this.colorc = 0;
 				this.size = 10;
 
 			}
-			else if(this.speed > 2.5)
+			else if(this.speed > 3)
 			{
-				this.r = 0;
-				this.g = 255;
-				this.b = 0;
+				this.colora = 0;
+				this.colorb = 255;
+				this.colorc = 0;
 				this.size = 20;
 
 			}
+			else if(this.speed > 1.1)
+			{
+				this.colora = 0;
+				this.colorb = 0;
+				this.colorc = 255;
+				this.size = 35;
+			}
 			else
 			{
-				this.r = 0;
-				this.g = 0;
-				this.b = 255;
-				this.size = 35;
+				this.colora = 255;
+				this.colorb = 0;
+				this.colorc = 255;
+				this. size = 100;
 			}
 		}
 	}
