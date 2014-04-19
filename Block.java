@@ -10,12 +10,14 @@ public class Blocks extends PApplet
 	double ypos;
 	double speed;
 	int size;
+	boolean alive = true;
 	static int score = 0;
+	int hp;
 	public Blocks(PApplet canvas)
 	{
 		
 		this.speed = (Math.random() * 6.5 + 1);
-		this.xpos = Math.random();
+		this.xpos = random(0,500);
 		this.ypos = 0;
 		if (this.speed > 5)
 		{
@@ -23,6 +25,7 @@ public class Blocks extends PApplet
 			this.colorb = 0;
 			this.colorc = 0;
 			this.size = 10;
+			this.hp  = 1;
 		}
 		else if(this.speed > 3)
 		{
@@ -30,6 +33,7 @@ public class Blocks extends PApplet
 			this.colorb = 255;
 			this.colorc = 0;
 			this.size = 20;
+			this.hp = 3;
 		}
 		else if(this.speed > 1.1)
 		{
@@ -37,6 +41,7 @@ public class Blocks extends PApplet
 			this.colorb = 0;
 			this.colorc = 255;
 			this.size = 35;
+			this.hp = 5;
 		}
 		else
 		{
@@ -44,18 +49,30 @@ public class Blocks extends PApplet
 			this.colorb = 0;
 			this.colorc = 255;
 			this. size = 100;
+			this.hp = 15;
 		}
 	}
 	public void move()
 	{
 		this.ypos += this.speed;
 	}
+	public void hitByBullet(Bullet a)
+	{
+		if (a.checkHit(this.size, (int) this.ypos, (int) this.xpos))
+		{
+			hp--;
+			if(hp <= 0)
+			{
+				alive = false;
+			}
+		}
+	}
 	public void resetBlock(int endOfScreen, PApplet canvas)
 	{
 		if(this.ypos > endOfScreen)
 		{
 			this.ypos = 0;
-			this.xpos = Math.random();
+			this.xpos = random(0,500);
 			this.speed = (Math.random() * 6.5 + 1);
 			this.score++;
 			
@@ -65,6 +82,7 @@ public class Blocks extends PApplet
 				this.colorb = 0;
 				this.colorc = 0;
 				this.size = 10;
+				this.hp = 1;
 
 			}
 			else if(this.speed > 3)
@@ -73,7 +91,7 @@ public class Blocks extends PApplet
 				this.colorb = 255;
 				this.colorc = 0;
 				this.size = 20;
-
+				this.hp = 3;
 			}
 			else if(this.speed > 1.1)
 			{
@@ -81,6 +99,7 @@ public class Blocks extends PApplet
 				this.colorb = 0;
 				this.colorc = 255;
 				this.size = 35;
+				this.hp = 5;
 			}
 			else
 			{
@@ -88,6 +107,7 @@ public class Blocks extends PApplet
 				this.colorb = 0;
 				this.colorc = 255;
 				this. size = 100;
+				this.hp = 15;
 			}
 		}
 	}
