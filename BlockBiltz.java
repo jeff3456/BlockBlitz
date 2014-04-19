@@ -3,7 +3,8 @@ import ddf.minim.Minim;
 import processing.core.PApplet;
 public class BlockBlitz extends PApplet
 {
-	int numBlocks = 10;
+	int numBlocks = 1;
+	int numThatSpawn = 0;
 	Blocks [] a = new Blocks[1000];
 	boolean gameOver = false;
 	long startTime =  System.currentTimeMillis();
@@ -58,9 +59,10 @@ public class BlockBlitz extends PApplet
 	{
 		timeElasped = (int) (System.currentTimeMillis() / 1000 - startTime / 1000);
 		//Spawn block if 1 second has passed
-		if(timeElasped != previousTime)
+		if(timeElasped > previousTime + 3)
 		{
-			numBlocks += 3;
+			numThatSpawn++;
+			numBlocks += numThatSpawn;
 			previousTime = timeElasped;
 		}
 		
@@ -79,7 +81,7 @@ public class BlockBlitz extends PApplet
 
 		
 		//iterate over blocks
-		if(timeElasped >= 3)
+		if(timeElasped >= 2)
 		{
 			for(int i = 0; i < numBlocks; i++)
 			{
@@ -124,6 +126,7 @@ public class BlockBlitz extends PApplet
 		{
 			timeElasped = (int) (System.currentTimeMillis() / 1000 - startTime / 1000);
 			println("you survived " + timeElasped + " seconds");
+			println("you got to level: " + numThatSpawn);
 			println("you dodged " + Blocks.score + " blocks");
 		}
 	}
