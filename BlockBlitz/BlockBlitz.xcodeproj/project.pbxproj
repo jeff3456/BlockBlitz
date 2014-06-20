@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		039150C61953F0BF00EF2FE2 /* SpriteSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 039150C51953F0BF00EF2FE2 /* SpriteSuper.m */; };
 		039150C91953F56E00EF2FE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039150C81953F56E00EF2FE2 /* ViewController.m */; };
+		039150CC1954CB8200EF2FE2 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 039150CB1954CB8200EF2FE2 /* Block.m */; };
 		03CBFFA71953DEEB002238C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFA61953DEEB002238C0 /* Foundation.framework */; };
 		03CBFFA91953DEEB002238C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFA81953DEEB002238C0 /* CoreGraphics.framework */; };
 		03CBFFAB1953DEEB002238C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFAA1953DEEB002238C0 /* UIKit.framework */; };
@@ -26,7 +27,6 @@
 		03CBFFD71953DEED002238C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFD51953DEED002238C0 /* InfoPlist.strings */; };
 		03CBFFD91953DEED002238C0 /* BlockBlitzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFD81953DEED002238C0 /* BlockBlitzTests.m */; };
 		03CBFFE41953DFBF002238C0 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFE31953DFBE002238C0 /* MenuScene.m */; };
-		03CBFFEB1953E08F002238C0 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFE61953E08F002238C0 /* Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,8 @@
 		039150C51953F0BF00EF2FE2 /* SpriteSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteSuper.m; sourceTree = "<group>"; };
 		039150C71953F56E00EF2FE2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		039150C81953F56E00EF2FE2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		039150CA1954CB8200EF2FE2 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Block.h; path = ../Block.h; sourceTree = "<group>"; };
+		039150CB1954CB8200EF2FE2 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Block.m; path = ../Block.m; sourceTree = "<group>"; };
 		03CBFFA31953DEEB002238C0 /* BlockBlitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockBlitz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CBFFA61953DEEB002238C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03CBFFA81953DEEB002238C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,8 +69,6 @@
 		03CBFFD81953DEED002238C0 /* BlockBlitzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockBlitzTests.m; sourceTree = "<group>"; };
 		03CBFFE21953DFBE002238C0 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		03CBFFE31953DFBE002238C0 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
-		03CBFFE51953E08F002238C0 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Block.h; path = "../../../CubeSmash/SHIV-IOS2014/Block.h"; sourceTree = "<group>"; };
-		03CBFFE61953E08F002238C0 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Block.m; path = "../../../CubeSmash/SHIV-IOS2014/Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +141,9 @@
 				03CBFFBE1953DEEC002238C0 /* GameController.m */,
 				03CBFFE21953DFBE002238C0 /* MenuScene.h */,
 				03CBFFE31953DFBE002238C0 /* MenuScene.m */,
+				039150CA1954CB8200EF2FE2 /* Block.h */,
+				039150CB1954CB8200EF2FE2 /* Block.m */,
 				03CBFFC31953DEEC002238C0 /* Spaceship.png */,
-				03CBFFE51953E08F002238C0 /* Block.h */,
-				03CBFFE61953E08F002238C0 /* Block.m */,
 				03CBFFC51953DEEC002238C0 /* Images.xcassets */,
 				03CBFFAF1953DEEB002238C0 /* Supporting Files */,
 			);
@@ -280,8 +280,8 @@
 				03CBFFE41953DFBF002238C0 /* MenuScene.m in Sources */,
 				03CBFFBF1953DEEC002238C0 /* GameController.m in Sources */,
 				039150C91953F56E00EF2FE2 /* ViewController.m in Sources */,
-				03CBFFEB1953E08F002238C0 /* Block.m in Sources */,
 				03CBFFB91953DEEB002238C0 /* AppDelegate.m in Sources */,
+				039150CC1954CB8200EF2FE2 /* Block.m in Sources */,
 				039150C61953F0BF00EF2FE2 /* SpriteSuper.m in Sources */,
 				03CBFFB51953DEEB002238C0 /* main.m in Sources */,
 			);
