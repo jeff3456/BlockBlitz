@@ -18,7 +18,6 @@
 		03CBFFB91953DEEB002238C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFB81953DEEB002238C0 /* AppDelegate.m */; };
 		03CBFFBC1953DEEC002238C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFBA1953DEEC002238C0 /* Main.storyboard */; };
 		03CBFFBF1953DEEC002238C0 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFBE1953DEEC002238C0 /* GameController.m */; };
-		03CBFFC21953DEEC002238C0 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFC11953DEEC002238C0 /* MyScene.m */; };
 		03CBFFC41953DEEC002238C0 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFC31953DEEC002238C0 /* Spaceship.png */; };
 		03CBFFC61953DEEC002238C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFC51953DEEC002238C0 /* Images.xcassets */; };
 		03CBFFCD1953DEED002238C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFCC1953DEED002238C0 /* XCTest.framework */; };
@@ -59,8 +58,6 @@
 		03CBFFBB1953DEEC002238C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03CBFFBD1953DEEC002238C0 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		03CBFFBE1953DEEC002238C0 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
-		03CBFFC01953DEEC002238C0 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		03CBFFC11953DEEC002238C0 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 		03CBFFC31953DEEC002238C0 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		03CBFFC51953DEEC002238C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03CBFFCB1953DEED002238C0 /* BlockBlitzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockBlitzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,8 +141,6 @@
 				03CBFFBE1953DEEC002238C0 /* GameController.m */,
 				03CBFFE21953DFBE002238C0 /* MenuScene.h */,
 				03CBFFE31953DFBE002238C0 /* MenuScene.m */,
-				03CBFFC01953DEEC002238C0 /* MyScene.h */,
-				03CBFFC11953DEEC002238C0 /* MyScene.m */,
 				03CBFFC31953DEEC002238C0 /* Spaceship.png */,
 				03CBFFE51953E08F002238C0 /* Block.h */,
 				03CBFFE61953E08F002238C0 /* Block.m */,
@@ -282,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CBFFC21953DEEC002238C0 /* MyScene.m in Sources */,
 				03CBFFE41953DFBF002238C0 /* MenuScene.m in Sources */,
 				03CBFFBF1953DEEC002238C0 /* GameController.m in Sources */,
 				039150C91953F56E00EF2FE2 /* ViewController.m in Sources */,
