@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039150C61953F0BF00EF2FE2 /* SpriteSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 039150C51953F0BF00EF2FE2 /* SpriteSuper.m */; };
+		039150C91953F56E00EF2FE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039150C81953F56E00EF2FE2 /* ViewController.m */; };
+		03CBFFA71953DEEB002238C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFA61953DEEB002238C0 /* Foundation.framework */; };
+		03CBFFA91953DEEB002238C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFA81953DEEB002238C0 /* CoreGraphics.framework */; };
+		03CBFFAB1953DEEB002238C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFAA1953DEEB002238C0 /* UIKit.framework */; };
+		03CBFFAD1953DEEB002238C0 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFAC1953DEEB002238C0 /* SpriteKit.framework */; };
+		03CBFFB31953DEEB002238C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFB11953DEEB002238C0 /* InfoPlist.strings */; };
+		03CBFFB51953DEEB002238C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFB41953DEEB002238C0 /* main.m */; };
+		03CBFFB91953DEEB002238C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFB81953DEEB002238C0 /* AppDelegate.m */; };
+		03CBFFBC1953DEEC002238C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFBA1953DEEC002238C0 /* Main.storyboard */; };
+		03CBFFBF1953DEEC002238C0 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFBE1953DEEC002238C0 /* GameController.m */; };
+		03CBFFC21953DEEC002238C0 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFC11953DEEC002238C0 /* MyScene.m */; };
+		03CBFFC41953DEEC002238C0 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFC31953DEEC002238C0 /* Spaceship.png */; };
+		03CBFFC61953DEEC002238C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFC51953DEEC002238C0 /* Images.xcassets */; };
+		03CBFFCD1953DEED002238C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFCC1953DEED002238C0 /* XCTest.framework */; };
+		03CBFFCE1953DEED002238C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFA61953DEEB002238C0 /* Foundation.framework */; };
+		03CBFFCF1953DEED002238C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBFFAA1953DEEB002238C0 /* UIKit.framework */; };
+		03CBFFD71953DEED002238C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03CBFFD51953DEED002238C0 /* InfoPlist.strings */; };
+		03CBFFD91953DEED002238C0 /* BlockBlitzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFD81953DEED002238C0 /* BlockBlitzTests.m */; };
+		03CBFFE41953DFBF002238C0 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFE31953DFBE002238C0 /* MenuScene.m */; };
+		03CBFFEB1953E08F002238C0 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFFE61953E08F002238C0 /* Block.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03CBFFD01953DEED002238C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CBFF9B1953DEEB002238C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CBFFA21953DEEB002238C0;
+			remoteInfo = BlockBlitz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039150C41953F0BF00EF2FE2 /* SpriteSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteSuper.h; sourceTree = "<group>"; };
+		039150C51953F0BF00EF2FE2 /* SpriteSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteSuper.m; sourceTree = "<group>"; };
+		039150C71953F56E00EF2FE2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		039150C81953F56E00EF2FE2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03CBFFA31953DEEB002238C0 /* BlockBlitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockBlitz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CBFFA61953DEEB002238C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03CBFFA81953DEEB002238C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03CBFFAA1953DEEB002238C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03CBFFAC1953DEEB002238C0 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		03CBFFB01953DEEB002238C0 /* BlockBlitz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockBlitz-Info.plist"; sourceTree = "<group>"; };
+		03CBFFB21953DEEB002238C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03CBFFB41953DEEB002238C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03CBFFB61953DEEB002238C0 /* BlockBlitz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockBlitz-Prefix.pch"; sourceTree = "<group>"; };
+		03CBFFB71953DEEB002238C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03CBFFB81953DEEB002238C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03CBFFBB1953DEEC002238C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03CBFFBD1953DEEC002238C0 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		03CBFFBE1953DEEC002238C0 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		03CBFFC01953DEEC002238C0 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		03CBFFC11953DEEC002238C0 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		03CBFFC31953DEEC002238C0 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		03CBFFC51953DEEC002238C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03CBFFCB1953DEED002238C0 /* BlockBlitzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockBlitzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CBFFCC1953DEED002238C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03CBFFD41953DEED002238C0 /* BlockBlitzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockBlitzTests-Info.plist"; sourceTree = "<group>"; };
+		03CBFFD61953DEED002238C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03CBFFD81953DEED002238C0 /* BlockBlitzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockBlitzTests.m; sourceTree = "<group>"; };
+		03CBFFE21953DFBE002238C0 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		03CBFFE31953DFBE002238C0 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		03CBFFE51953E08F002238C0 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Block.h; path = "../../../CubeSmash/SHIV-IOS2014/Block.h"; sourceTree = "<group>"; };
+		03CBFFE61953E08F002238C0 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Block.m; path = "../../../CubeSmash/SHIV-IOS2014/Block.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CBFFA01953DEEB002238C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBFFA91953DEEB002238C0 /* CoreGraphics.framework in Frameworks */,
+				03CBFFAB1953DEEB002238C0 /* UIKit.framework in Frameworks */,
+				03CBFFAD1953DEEB002238C0 /* SpriteKit.framework in Frameworks */,
+				03CBFFA71953DEEB002238C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CBFFC81953DEED002238C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBFFCD1953DEED002238C0 /* XCTest.framework in Frameworks */,
+				03CBFFCF1953DEED002238C0 /* UIKit.framework in Frameworks */,
+				03CBFFCE1953DEED002238C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CBFF9A1953DEEB002238C0 = {
+			isa = PBXGroup;
+			children = (
+				03CBFFAE1953DEEB002238C0 /* BlockBlitz */,
+				03CBFFD21953DEED002238C0 /* BlockBlitzTests */,
+				03CBFFA51953DEEB002238C0 /* Frameworks */,
+				03CBFFA41953DEEB002238C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CBFFA41953DEEB002238C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CBFFA31953DEEB002238C0 /* BlockBlitz.app */,
+				03CBFFCB1953DEED002238C0 /* BlockBlitzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CBFFA51953DEEB002238C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CBFFA61953DEEB002238C0 /* Foundation.framework */,
+				03CBFFA81953DEEB002238C0 /* CoreGraphics.framework */,
+				03CBFFAA1953DEEB002238C0 /* UIKit.framework */,
+				03CBFFAC1953DEEB002238C0 /* SpriteKit.framework */,
+				03CBFFCC1953DEED002238C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03CBFFAE1953DEEB002238C0 /* BlockBlitz */ = {
+			isa = PBXGroup;
+			children = (
+				039150C71953F56E00EF2FE2 /* ViewController.h */,
+				039150C81953F56E00EF2FE2 /* ViewController.m */,
+				039150C41953F0BF00EF2FE2 /* SpriteSuper.h */,
+				039150C51953F0BF00EF2FE2 /* SpriteSuper.m */,
+				03CBFFB71953DEEB002238C0 /* AppDelegate.h */,
+				03CBFFB81953DEEB002238C0 /* AppDelegate.m */,
+				03CBFFBA1953DEEC002238C0 /* Main.storyboard */,
+				03CBFFBD1953DEEC002238C0 /* GameController.h */,
+				03CBFFBE1953DEEC002238C0 /* GameController.m */,
+				03CBFFE21953DFBE002238C0 /* MenuScene.h */,
+				03CBFFE31953DFBE002238C0 /* MenuScene.m */,
+				03CBFFC01953DEEC002238C0 /* MyScene.h */,
+				03CBFFC11953DEEC002238C0 /* MyScene.m */,
+				03CBFFC31953DEEC002238C0 /* Spaceship.png */,
+				03CBFFE51953E08F002238C0 /* Block.h */,
+				03CBFFE61953E08F002238C0 /* Block.m */,
+				03CBFFC51953DEEC002238C0 /* Images.xcassets */,
+				03CBFFAF1953DEEB002238C0 /* Supporting Files */,
+			);
+			path = BlockBlitz;
+			sourceTree = "<group>";
+		};
+		03CBFFAF1953DEEB002238C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CBFFB01953DEEB002238C0 /* BlockBlitz-Info.plist */,
+				03CBFFB11953DEEB002238C0 /* InfoPlist.strings */,
+				03CBFFB41953DEEB002238C0 /* main.m */,
+				03CBFFB61953DEEB002238C0 /* BlockBlitz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03CBFFD21953DEED002238C0 /* BlockBlitzTests */ = {
+			isa = PBXGroup;
+			children = (
+				03CBFFD81953DEED002238C0 /* BlockBlitzTests.m */,
+				03CBFFD31953DEED002238C0 /* Supporting Files */,
+			);
+			path = BlockBlitzTests;
+			sourceTree = "<group>";
+		};
+		03CBFFD31953DEED002238C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CBFFD41953DEED002238C0 /* BlockBlitzTests-Info.plist */,
+				03CBFFD51953DEED002238C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CBFFA21953DEEB002238C0 /* BlockBlitz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CBFFDC1953DEED002238C0 /* Build configuration list for PBXNativeTarget "BlockBlitz" */;
+			buildPhases = (
+				03CBFF9F1953DEEB002238C0 /* Sources */,
+				03CBFFA01953DEEB002238C0 /* Frameworks */,
+				03CBFFA11953DEEB002238C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockBlitz;
+			productName = BlockBlitz;
+			productReference = 03CBFFA31953DEEB002238C0 /* BlockBlitz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03CBFFCA1953DEED002238C0 /* BlockBlitzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CBFFDF1953DEED002238C0 /* Build configuration list for PBXNativeTarget "BlockBlitzTests" */;
+			buildPhases = (
+				03CBFFC71953DEED002238C0 /* Sources */,
+				03CBFFC81953DEED002238C0 /* Frameworks */,
+				03CBFFC91953DEED002238C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CBFFD11953DEED002238C0 /* PBXTargetDependency */,
+			);
+			name = BlockBlitzTests;
+			productName = BlockBlitzTests;
+			productReference = 03CBFFCB1953DEED002238C0 /* BlockBlitzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CBFF9B1953DEEB002238C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LeeHowland;
+				TargetAttributes = {
+					03CBFFCA1953DEED002238C0 = {
+						TestTargetID = 03CBFFA21953DEEB002238C0;
+					};
+				};
+			};
+			buildConfigurationList = 03CBFF9E1953DEEB002238C0 /* Build configuration list for PBXProject "BlockBlitz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03CBFF9A1953DEEB002238C0;
+			productRefGroup = 03CBFFA41953DEEB002238C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CBFFA21953DEEB002238C0 /* BlockBlitz */,
+				03CBFFCA1953DEED002238C0 /* BlockBlitzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CBFFA11953DEEB002238C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBFFB31953DEEB002238C0 /* InfoPlist.strings in Resources */,
+				03CBFFC61953DEEC002238C0 /* Images.xcassets in Resources */,
+				03CBFFC41953DEEC002238C0 /* Spaceship.png in Resources */,
+				03CBFFBC1953DEEC002238C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CBFFC91953DEED002238C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBFFD71953DEED002238C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CBFF9F1953DEEB002238C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBFFC21953DEEC002238C0 /* MyScene.m in Sources */,
+				03CBFFE41953DFBF002238C0 /* MenuScene.m in Sources */,
+				03CBFFBF1953DEEC002238C0 /* GameController.m in Sources */,
+				039150C91953F56E00EF2FE2 /* ViewController.m in Sources */,
+				03CBFFEB1953E08F002238C0 /* Block.m in Sources */,
+				03CBFFB91953DEEB002238C0 /* AppDelegate.m in Sources */,
+				039150C61953F0BF00EF2FE2 /* SpriteSuper.m in Sources */,
+				03CBFFB51953DEEB002238C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CBFFC71953DEED002238C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBFFD91953DEED002238C0 /* BlockBlitzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03CBFFD11953DEED002238C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CBFFA21953DEEB002238C0 /* BlockBlitz */;
+			targetProxy = 03CBFFD01953DEED002238C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03CBFFB11953DEEB002238C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CBFFB21953DEEB002238C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03CBFFBA1953DEEC002238C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CBFFBB1953DEEC002238C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03CBFFD51953DEED002238C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CBFFD61953DEED002238C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03CBFFDA1953DEED002238C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03CBFFDB1953DEED002238C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03CBFFDD1953DEED002238C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockBlitz/BlockBlitz-Prefix.pch";
+				INFOPLIST_FILE = "BlockBlitz/BlockBlitz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03CBFFDE1953DEED002238C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockBlitz/BlockBlitz-Prefix.pch";
+				INFOPLIST_FILE = "BlockBlitz/BlockBlitz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03CBFFE01953DEED002238C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockBlitz.app/BlockBlitz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockBlitz/BlockBlitz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlockBlitzTests/BlockBlitzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03CBFFE11953DEED002238C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockBlitz.app/BlockBlitz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockBlitz/BlockBlitz-Prefix.pch";
+				INFOPLIST_FILE = "BlockBlitzTests/BlockBlitzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CBFF9E1953DEEB002238C0 /* Build configuration list for PBXProject "BlockBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CBFFDA1953DEED002238C0 /* Debug */,
+				03CBFFDB1953DEED002238C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CBFFDC1953DEED002238C0 /* Build configuration list for PBXNativeTarget "BlockBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CBFFDD1953DEED002238C0 /* Debug */,
+				03CBFFDE1953DEED002238C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CBFFDF1953DEED002238C0 /* Build configuration list for PBXNativeTarget "BlockBlitzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CBFFE01953DEED002238C0 /* Debug */,
+				03CBFFE11953DEED002238C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CBFF9B1953DEEB002238C0 /* Project object */;
+}
